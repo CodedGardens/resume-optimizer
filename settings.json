@@ -1,0 +1,22 @@
+{
+    "python.defaultInterpreterPath": "venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave":{
+        "source.organizeImports": "explicit"
+    },
+    "python.formatting.provider": "none",
+    "ruff.enable": true,
+    "ruff.lint.enable": true,
+    "ruff.format.enable": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/.ruff_cache": true
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.osx": "zsh"
+}
+# Black disabled, Ruff linting, auto-import sorting, automatic environment activation, and terminal profile settings for cross-platform compatibility.
